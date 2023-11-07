@@ -7,35 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7615EF9F2AF1BE3F00991EA7 /* TestingTheory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EF9E2AF1BE3F00991EA7 /* TestingTheory.swift */; };
-		7615EFA12AF268BC00991EA7 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EFA02AF268BC00991EA7 /* TabScreen.swift */; };
+		7615EFA12AF268BC00991EA7 /* TabViewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EFA02AF268BC00991EA7 /* TabViewExpense.swift */; };
 		7615EFA42AF28AC500991EA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7615EFA32AF28AC500991EA7 /* Alamofire */; };
-		7615EFA72AF5777E00991EA7 /* ExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EFA62AF5777E00991EA7 /* ExpenseList.swift */; };
+		7615EFA72AF5777E00991EA7 /* DailyExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EFA62AF5777E00991EA7 /* DailyExpenseList.swift */; };
 		7615EFA92AF58DC100991EA7 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615EFA82AF58DC100991EA7 /* DateExt.swift */; };
 		7642F1492AF1787500239886 /* Monthly_ExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F1482AF1787500239886 /* Monthly_ExpensesApp.swift */; };
-		7642F14B2AF1787500239886 /* ExpenseListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F14A2AF1787500239886 /* ExpenseListScreen.swift */; };
+		7642F14B2AF1787500239886 /* DailyExpenseListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F14A2AF1787500239886 /* DailyExpenseListScreen.swift */; };
 		7642F14F2AF1787600239886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642F14E2AF1787600239886 /* Assets.xcassets */; };
 		7642F1522AF1787600239886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642F1512AF1787600239886 /* Preview Assets.xcassets */; };
 		7642F15C2AF178EF00239886 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F15B2AF178EF00239886 /* Expense.swift */; };
 		7642F15F2AF1825400239886 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F15E2AF1825400239886 /* AddExpenseSheet.swift */; };
 		7642F1642AF182CC00239886 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F1632AF182CC00239886 /* ExpenseCell.swift */; };
 		7642F1672AF18C3900239886 /* UpdateExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F1662AF18C3900239886 /* UpdateExpenseSheet.swift */; };
+		76DF18302AF981E000742EAF /* MonthlyResumeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */; };
+		76DF18322AF9BECB00742EAF /* MonthlyExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7615EF9E2AF1BE3F00991EA7 /* TestingTheory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTheory.swift; sourceTree = "<group>"; };
-		7615EFA02AF268BC00991EA7 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
-		7615EFA62AF5777E00991EA7 /* ExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseList.swift; sourceTree = "<group>"; };
+		7615EFA02AF268BC00991EA7 /* TabViewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExpense.swift; sourceTree = "<group>"; };
+		7615EFA62AF5777E00991EA7 /* DailyExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExpenseList.swift; sourceTree = "<group>"; };
 		7615EFA82AF58DC100991EA7 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		7642F1452AF1787500239886 /* Monthly Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monthly Expenses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7642F1482AF1787500239886 /* Monthly_ExpensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monthly_ExpensesApp.swift; sourceTree = "<group>"; };
-		7642F14A2AF1787500239886 /* ExpenseListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListScreen.swift; sourceTree = "<group>"; };
+		7642F14A2AF1787500239886 /* DailyExpenseListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExpenseListScreen.swift; sourceTree = "<group>"; };
 		7642F14E2AF1787600239886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7642F1512AF1787600239886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7642F15B2AF178EF00239886 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		7642F15E2AF1825400239886 /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
 		7642F1632AF182CC00239886 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
 		7642F1662AF18C3900239886 /* UpdateExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseSheet.swift; sourceTree = "<group>"; };
+		76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyResumeScreen.swift; sourceTree = "<group>"; };
+		76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpenseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,13 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7615EFA52AF5775A00991EA7 /* ExpenseListScreen */ = {
+		7615EFA52AF5775A00991EA7 /* DailyExpenseScreen */ = {
 			isa = PBXGroup;
 			children = (
-				7642F14A2AF1787500239886 /* ExpenseListScreen.swift */,
-				7615EFA62AF5777E00991EA7 /* ExpenseList.swift */,
+				7642F14A2AF1787500239886 /* DailyExpenseListScreen.swift */,
+				7615EFA62AF5777E00991EA7 /* DailyExpenseList.swift */,
 			);
-			path = ExpenseListScreen;
+			path = DailyExpenseScreen;
 			sourceTree = "<group>";
 		};
 		7615EFAA2AF58F4C00991EA7 /* Util */ = {
@@ -78,7 +80,6 @@
 		7642F13C2AF1787500239886 = {
 			isa = PBXGroup;
 			children = (
-				7615EFAA2AF58F4C00991EA7 /* Util */,
 				7642F1472AF1787500239886 /* Monthly Expenses */,
 				7642F1462AF1787500239886 /* Products */,
 			);
@@ -95,6 +96,7 @@
 		7642F1472AF1787500239886 /* Monthly Expenses */ = {
 			isa = PBXGroup;
 			children = (
+				7615EFAA2AF58F4C00991EA7 /* Util */,
 				7642F1592AF1789600239886 /* Presenter */,
 				7642F1582AF1788D00239886 /* Data */,
 				7642F1482AF1787500239886 /* Monthly_ExpensesApp.swift */,
@@ -141,9 +143,9 @@
 		7642F15D2AF1822000239886 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				7615EFA52AF5775A00991EA7 /* ExpenseListScreen */,
-				7615EF9E2AF1BE3F00991EA7 /* TestingTheory.swift */,
-				7615EFA02AF268BC00991EA7 /* TabScreen.swift */,
+				76DF182E2AF97EC900742EAF /* MonthlyExpenseScreen */,
+				7615EFA52AF5775A00991EA7 /* DailyExpenseScreen */,
+				7615EFA02AF268BC00991EA7 /* TabViewExpense.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -163,6 +165,15 @@
 				7642F1662AF18C3900239886 /* UpdateExpenseSheet.swift */,
 			);
 			path = Sheets;
+			sourceTree = "<group>";
+		};
+		76DF182E2AF97EC900742EAF /* MonthlyExpenseScreen */ = {
+			isa = PBXGroup;
+			children = (
+				76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */,
+				76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */,
+			);
+			path = MonthlyExpenseScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,13 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DF18322AF9BECB00742EAF /* MonthlyExpenseList.swift in Sources */,
 				7642F15C2AF178EF00239886 /* Expense.swift in Sources */,
-				7615EFA12AF268BC00991EA7 /* TabScreen.swift in Sources */,
-				7615EF9F2AF1BE3F00991EA7 /* TestingTheory.swift in Sources */,
-				7642F14B2AF1787500239886 /* ExpenseListScreen.swift in Sources */,
-				7615EFA72AF5777E00991EA7 /* ExpenseList.swift in Sources */,
+				7615EFA12AF268BC00991EA7 /* TabViewExpense.swift in Sources */,
+				7642F14B2AF1787500239886 /* DailyExpenseListScreen.swift in Sources */,
+				7615EFA72AF5777E00991EA7 /* DailyExpenseList.swift in Sources */,
 				7642F1642AF182CC00239886 /* ExpenseCell.swift in Sources */,
 				7642F1672AF18C3900239886 /* UpdateExpenseSheet.swift in Sources */,
+				76DF18302AF981E000742EAF /* MonthlyResumeScreen.swift in Sources */,
 				7615EFA92AF58DC100991EA7 /* DateExt.swift in Sources */,
 				7642F15F2AF1825400239886 /* AddExpenseSheet.swift in Sources */,
 				7642F1492AF1787500239886 /* Monthly_ExpensesApp.swift in Sources */,

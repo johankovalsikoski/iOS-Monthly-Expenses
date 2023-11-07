@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExpenseListScreen: View {
+struct DailyExpenseListScreen: View {
     @State private var currentExpenseDateShown: Date = .now
     
     var body: some View {
@@ -37,7 +37,7 @@ struct ExpenseListScreen: View {
                         Color.blue
                     }.foregroundColor(.white)
                 
-                ExpenseList(filterByDate: currentExpenseDateShown.toYMDString())
+                DailyExpenseList(currentExpenseDateShown.toYMDString())
                 
             }
         }
@@ -46,6 +46,6 @@ struct ExpenseListScreen: View {
 }
 
 #Preview {
-    ExpenseListScreen()
+    DailyExpenseListScreen()
         .modelContainer(for: Expense.self, inMemory: true)
 }

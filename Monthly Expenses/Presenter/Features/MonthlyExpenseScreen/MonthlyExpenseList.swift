@@ -1,14 +1,14 @@
 //
-//  ExpenseList.swift
+//  MonthlyExpenseList.swift
 //  Monthly Expenses
 //
-//  Created by Johan Kovalsikoski on 03/11/23.
+//  Created by Johan Kovalsikoski on 06/11/23.
 //
 
 import SwiftUI
 import SwiftData
 
-struct ExpenseList: View {
+struct MonthlyExpenseList: View {
     @Environment(\.modelContext) private var context
 
     @State private var showAddExpenseSheet = false
@@ -16,14 +16,14 @@ struct ExpenseList: View {
     
     @Query private var expenseList: [Expense]
     
-    let filterByDate: String
+    let filterDate: String
     
-    init(filterByDate: String) {
-        self.filterByDate = filterByDate
+    init(_ filterDate: String) {
+        self.filterDate = String(filterDate.dropLast(2))
 
         _expenseList = Query(
-            filter: #Predicate<Expense> {
-                $0.searchableDate == filterByDate
+            filter: #Predicate<Expense> { expense in
+                expense.searchableDate.contains(filterDate)
             }, animation: .default
         )
     }
@@ -79,5 +79,5 @@ struct ExpenseList: View {
 }
 
 #Preview {
-    ExpenseList(filterByDate: "23/11/27")
+    MonthlyExpenseList("23/11/27")
 }

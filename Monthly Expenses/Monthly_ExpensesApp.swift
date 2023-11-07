@@ -25,7 +25,7 @@ struct Monthly_ExpensesApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ExpenseListScreen()
+            TabViewExpense()
         }
         .modelContainer(sharedModelContainer)
     }
