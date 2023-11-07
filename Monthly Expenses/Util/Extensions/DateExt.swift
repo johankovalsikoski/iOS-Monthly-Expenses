@@ -12,6 +12,6 @@ extension Date {
         let formatter = DateFormatter()
         formatter.dateStyle = .short
         formatter.dateFormat = format
-        return formatter.string(from: self)
+        return formatter.string(from: self).filter{ $0 != "-" }
     }
 }

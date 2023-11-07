@@ -26,7 +26,7 @@ struct DailyExpenseList: View {
         _expenseList = Query(
             filter: #Predicate<Expense> { expense in
                 expense.searchableDate == filterDate
-            }, animation: .default
+            }, sort: \Expense.date, animation: .default
         )
     }
     

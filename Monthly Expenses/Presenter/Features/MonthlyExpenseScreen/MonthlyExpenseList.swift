@@ -14,31 +14,26 @@ struct MonthlyExpenseList: View {
     @State private var showAddExpenseSheet = false
     @State private var expenseToEdit: Expense?
     
-    @Query private var expenseList: [Expense]
+    @Query(sort: \Expense.date, animation: .default) private var expenseList: [Expense]
     
     let filterDate: String
     
     init(_ filterDate: String) {
         self.filterDate = String(filterDate.dropLast(2))
-
-        _expenseList = Query(
-            filter: #Predicate<Expense> { expense in
-                expense.searchableDate.contains(filterDate)
-            }, animation: .default
-        )
     }
     
     var body: some View {
         NavigationStack {
             List {
                 ForEach(expenseList) { expense in
-                    ExpenseCell(expense: expense)
-                        .onTapGesture {
-                            expenseToEdit = expense
-                        }
+                    if expense.searchableDate.contains(filterDate) {
+                        ExpenseCell(expense: expense)
+                            .onTapGesture {
+                                expenseToEdit = expense
+                            }
+                    }
                 }
                 .onDelete(perform: deleteExpense) // built in delete allows swipe to delete
-                
             }
             .navigationTitle("Expenses")
             .navigationBarTitleDisplayMode(.automatic)

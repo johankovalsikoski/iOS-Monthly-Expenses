@@ -19,6 +19,10 @@
 		7642F15F2AF1825400239886 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F15E2AF1825400239886 /* AddExpenseSheet.swift */; };
 		7642F1642AF182CC00239886 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F1632AF182CC00239886 /* ExpenseCell.swift */; };
 		7642F1672AF18C3900239886 /* UpdateExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642F1662AF18C3900239886 /* UpdateExpenseSheet.swift */; };
+		76C521BC2AFADB6500FAB3AC /* MonthlyExpensesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C521BB2AFADB6500FAB3AC /* MonthlyExpensesSum.swift */; };
+		76C521BE2AFAE70500FAB3AC /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C521BD2AFAE70500FAB3AC /* ArrayExt.swift */; };
+		76C521C02AFAE75E00FAB3AC /* DoubleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C521BF2AFAE75E00FAB3AC /* DoubleExt.swift */; };
+		76C521C22AFAEB7200FAB3AC /* DailyExpensesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C521C12AFAEB7200FAB3AC /* DailyExpensesSum.swift */; };
 		76DF18302AF981E000742EAF /* MonthlyResumeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */; };
 		76DF18322AF9BECB00742EAF /* MonthlyExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +40,10 @@
 		7642F15E2AF1825400239886 /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
 		7642F1632AF182CC00239886 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
 		7642F1662AF18C3900239886 /* UpdateExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseSheet.swift; sourceTree = "<group>"; };
+		76C521BB2AFADB6500FAB3AC /* MonthlyExpensesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpensesSum.swift; sourceTree = "<group>"; };
+		76C521BD2AFAE70500FAB3AC /* ArrayExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExt.swift; sourceTree = "<group>"; };
+		76C521BF2AFAE75E00FAB3AC /* DoubleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExt.swift; sourceTree = "<group>"; };
+		76C521C12AFAEB7200FAB3AC /* DailyExpensesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExpensesSum.swift; sourceTree = "<group>"; };
 		76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyResumeScreen.swift; sourceTree = "<group>"; };
 		76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpenseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +65,7 @@
 			children = (
 				7642F14A2AF1787500239886 /* DailyExpenseListScreen.swift */,
 				7615EFA62AF5777E00991EA7 /* DailyExpenseList.swift */,
+				76C521C12AFAEB7200FAB3AC /* DailyExpensesSum.swift */,
 			);
 			path = DailyExpenseScreen;
 			sourceTree = "<group>";
@@ -73,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				7615EFA82AF58DC100991EA7 /* DateExt.swift */,
+				76C521BD2AFAE70500FAB3AC /* ArrayExt.swift */,
+				76C521BF2AFAE75E00FAB3AC /* DoubleExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -172,6 +183,7 @@
 			children = (
 				76DF182F2AF981E000742EAF /* MonthlyResumeScreen.swift */,
 				76DF18312AF9BECB00742EAF /* MonthlyExpenseList.swift */,
+				76C521BB2AFADB6500FAB3AC /* MonthlyExpensesSum.swift */,
 			);
 			path = MonthlyExpenseScreen;
 			sourceTree = "<group>";
@@ -254,6 +266,9 @@
 			files = (
 				76DF18322AF9BECB00742EAF /* MonthlyExpenseList.swift in Sources */,
 				7642F15C2AF178EF00239886 /* Expense.swift in Sources */,
+				76C521BC2AFADB6500FAB3AC /* MonthlyExpensesSum.swift in Sources */,
+				76C521BE2AFAE70500FAB3AC /* ArrayExt.swift in Sources */,
+				76C521C02AFAE75E00FAB3AC /* DoubleExt.swift in Sources */,
 				7615EFA12AF268BC00991EA7 /* TabViewExpense.swift in Sources */,
 				7642F14B2AF1787500239886 /* DailyExpenseListScreen.swift in Sources */,
 				7615EFA72AF5777E00991EA7 /* DailyExpenseList.swift in Sources */,
@@ -263,6 +278,7 @@
 				7615EFA92AF58DC100991EA7 /* DateExt.swift in Sources */,
 				7642F15F2AF1825400239886 /* AddExpenseSheet.swift in Sources */,
 				7642F1492AF1787500239886 /* Monthly_ExpensesApp.swift in Sources */,
+				76C521C22AFAEB7200FAB3AC /* DailyExpensesSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

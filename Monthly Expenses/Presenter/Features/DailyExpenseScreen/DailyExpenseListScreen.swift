@@ -39,6 +39,8 @@ struct DailyExpenseListScreen: View {
                 
                 DailyExpenseList(currentExpenseDateShown.toYMDString())
                 
+                DailyExpensesSum(currentExpenseDateShown.toYMDString())
+                
             }
         }
     }

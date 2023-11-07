@@ -23,9 +23,9 @@ struct MonthlyResumeScreen: View {
                     DatePicker(
                         "", selection: $currentExpenseDateShown, displayedComponents: .date
                     ).labelsHidden()
-                        .opacity(0.0101) // MAGIC-ENABLE NUMBER FOR ENABLING CLICK
+                        .opacity(0.0101) // MAGIC-ENABLING NUMBER FOR CLICK
                         .background(
-                            Text(currentExpenseDateShown,format: .dateTime.month(.abbreviated).year()).foregroundColor(.white)
+                            Text(currentExpenseDateShown, format: .dateTime.month(.abbreviated).year()).foregroundColor(.white)
                         )
                     
                     Spacer()
@@ -41,6 +41,8 @@ struct MonthlyResumeScreen: View {
                     }.foregroundColor(.white)
                 
                 MonthlyExpenseList(currentExpenseDateShown.toYMDString())
+                
+                MonthlyExpensesSum(currentExpenseDateShown.toYMDString())
                 
             }
         }

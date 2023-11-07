@@ -8,6 +8,13 @@
 import SwiftUI
 import SwiftData
 
+/**
+ TODO:
+ - [] Add and Expense Sheet Currency TextField needs adjustment
+ - [DONE] Sum up expenses value by month/day
+ - [] Preview isn't working after ExpenseSumUp View and ArrayExt were implemented
+*/
+
 @main
 struct Monthly_ExpensesApp: App {
     var sharedModelContainer: ModelContainer = {
